@@ -12,5 +12,6 @@ résultats de l'algo et de l'utilisateur pour chaque actif.
 - historiques:
 calendrier des actifs / retrosprection des résultats contre l'algo
 
+
 * Connexion à une base de donnée:
-MongoDB
+MongoDB ou MySQL
