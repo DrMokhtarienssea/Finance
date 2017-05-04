@@ -29,35 +29,35 @@ MongoDB ou MySQL
 
 - Users:
 
-UserID (PK)
-Pseudo
-Email
+UserID (PK)/
+Pseudo/
+Email/
 ---------------
 - UsersInfo:
 
-Email
-Name
-Surname
-Birthdate
-Nationnality
-Sexe
+Email/
+Name/
+Surname/
+Birthdate/
+Nationnality/
+Sexe/
 ---------------
 - Events:
 
-EventID (PK)
-UserID (FK)
-PlatformID (FK)
-EventTypeID (FK)
-Value
-Timestamp
+EventID (PK)/
+UserID (FK)/
+PlatformID (FK)/
+EventTypeID (FK)/
+Value/
+Timestamp/
 ---------------
 - EventTypes:
 
-EventTypeID (PK)
-EventName (status update, group created, friend added, friend removed, video posted, image posted, etc...)
+EventTypeID (PK)/
+EventName (status update, group created, friend added, friend removed, video posted, image posted, etc...)/
 ---------------
 - Platforms:
 
-PlatformID (PK)
-PlatformName (Facebook, Youtube, likedin, etc)
+PlatformID (PK)/
+PlatformName (Facebook, Youtube, likedin, etc)/
 ---------------
