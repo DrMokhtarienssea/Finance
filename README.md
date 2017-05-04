@@ -26,13 +26,14 @@ calendrier des actifs / retrosprection des résultats contre l'algo
 MongoDB ou MySQL
 
 * Structure de la base de donnée:
-Users:
+
+- Users:
 ---------------
 UserID (PK)
 Pseudo
 Email
 
-UsersInfo:
+- UsersInfo:
 ---------------
 Email
 Name
@@ -41,7 +42,7 @@ Birthdate
 Nationnality
 Sexe
 
-Events:
+- Events:
 ---------------
 EventID (PK)
 UserID (FK)
@@ -50,12 +51,12 @@ EventTypeID (FK)
 Value
 Timestamp
 
-EventTypes:
+- EventTypes:
 ---------------
 EventTypeID (PK)
 EventName (status update, group created, friend added, friend removed, video posted, image posted, etc...)
 
-Platforms:
+- Platforms:
 ---------------
 PlatformID (PK)
 PlatformName (Facebook, Youtube, likedin, etc)
